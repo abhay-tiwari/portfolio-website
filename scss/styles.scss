@@ -1,0 +1,13 @@
+@import "variables";
+@import "mixins";
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+.navbar-dark {
+  background: rgba(0, 0, 0, 0.8);
+  border-bottom: 2px solid $primary;
+
+  .navbar-brand {
+    font-size: 20px;
+    text-transform: uppercase;
+  }
+}
