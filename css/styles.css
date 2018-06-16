@@ -6756,4 +6756,49 @@ a.text-dark:hover, a.text-dark:focus {
     font-size: 20px;
     text-transform: uppercase; }
 
+#header-section {
+  background: url("../img/header-bg.jpeg") no-repeat;
+  background-size: cover;
+  height: 600px; }
+  @media screen and (max-width: 767px) {
+    #header-section {
+      height: 450px; } }
+  @media screen and (max-width: 575px) {
+    #header-section {
+      height: 300px; } }
+  #header-section .overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 600px;
+    background-size: cover; }
+    @media screen and (max-width: 767px) {
+      #header-section .overlay {
+        height: 450px; } }
+    @media screen and (max-width: 575px) {
+      #header-section .overlay {
+        height: 300px; } }
+  #header-section .typed-wrapper {
+    padding-top: 250px;
+    color: #fff;
+    font-size: 60px;
+    width: 600px;
+    margin: auto;
+    font-weight: bold; }
+    @media screen and (max-width: 991px) {
+      #header-section .typed-wrapper {
+        font-size: 40px;
+        width: 400px;
+        margin: auto; } }
+    @media screen and (max-width: 767px) {
+      #header-section .typed-wrapper {
+        padding-top: 150px;
+        font-size: 30px;
+        width: 300px;
+        margin: auto; } }
+    @media screen and (max-width: 575px) {
+      #header-section .typed-wrapper {
+        padding-top: 100px;
+        font-size: 20px;
+        width: 200px;
+        margin: auto; } }
+
 /*# sourceMappingURL=styles.css.map */
