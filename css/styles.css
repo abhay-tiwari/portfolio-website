@@ -6765,20 +6765,20 @@ body {
   height: 600px; }
   @media screen and (max-width: 767px) {
     #header-section {
-      height: 450px; } }
+      height: 500px; } }
   @media screen and (max-width: 575px) {
     #header-section {
-      height: 300px; } }
+      height: 500px; } }
   #header-section .overlay {
     background-color: rgba(0, 0, 0, 0.6);
     height: 600px;
     background-size: cover; }
     @media screen and (max-width: 767px) {
       #header-section .overlay {
-        height: 450px; } }
+        height: 500px; } }
     @media screen and (max-width: 575px) {
       #header-section .overlay {
-        height: 300px; } }
+        height: 500px; } }
   #header-section .typed-wrapper {
     padding-top: 250px;
     color: #fff;
@@ -6793,13 +6793,13 @@ body {
         margin: auto; } }
     @media screen and (max-width: 767px) {
       #header-section .typed-wrapper {
-        padding-top: 150px;
+        padding-top: 200px;
         font-size: 30px;
         width: 300px;
         margin: auto; } }
     @media screen and (max-width: 575px) {
       #header-section .typed-wrapper {
-        padding-top: 100px;
+        padding-top: 200px;
         font-size: 20px;
         width: 200px;
         margin: auto; } }
