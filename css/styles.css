@@ -6752,6 +6752,7 @@ a.text-dark:hover, a.text-dark:focus {
 body {
   background: #252525; }
 
+/* navbar styling */
 .navbar-dark {
   background: #000;
   border-bottom: 2px solid #007bff; }
@@ -6759,30 +6760,31 @@ body {
     font-size: 20px;
     text-transform: uppercase; }
 
+/* header section styling */
 #header-section {
   background: url("../img/header-bg.jpeg") no-repeat;
   background-size: cover;
   height: 600px; }
   @media screen and (max-width: 767px) {
     #header-section {
-      height: 500px; } }
+      height: 450px; } }
   @media screen and (max-width: 575px) {
     #header-section {
-      height: 500px; } }
+      height: 450px; } }
   #header-section .overlay {
     background-color: rgba(0, 0, 0, 0.6);
     height: 600px;
     background-size: cover; }
     @media screen and (max-width: 767px) {
       #header-section .overlay {
-        height: 500px; } }
+        height: 450px; } }
     @media screen and (max-width: 575px) {
       #header-section .overlay {
-        height: 500px; } }
+        height: 450px; } }
   #header-section .typed-wrapper {
     padding-top: 250px;
     color: #fff;
-    font-size: 60px;
+    font-size: 50px;
     width: 600px;
     margin: auto;
     font-weight: bold; }
@@ -6804,36 +6806,41 @@ body {
         width: 200px;
         margin: auto; } }
 
+/* about section styling */
 #about-section {
   padding-top: 100px;
   height: 600px; }
   @media screen and (max-width: 767px) {
-    #about-section .bio-section .card,
-    #about-section .bio-section .card-body,
-    #about-section .bio-section .card-img {
-      width: 300px;
-      height: 300px;
-      margin: auto; }
-    #about-section .bio-section .card {
-      margin-bottom: 20px; }
-    #about-section .bio-section .bio {
-      text-align: center;
-      margin-bottom: 20px; }
-    #about-section .bio-section .social-media {
-      width: 60%;
-      margin: auto;
-      margin-bottom: 100px; } }
+    #about-section {
+      height: 960px; }
+      #about-section .bio-section .card,
+      #about-section .bio-section .card-body,
+      #about-section .bio-section .card-img {
+        width: 300px;
+        height: 300px;
+        margin: auto; }
+      #about-section .bio-section .card {
+        margin-bottom: 20px; }
+      #about-section .bio-section .bio {
+        text-align: center;
+        margin-bottom: 20px; }
+      #about-section .bio-section .social-media {
+        width: 60%;
+        margin: auto;
+        margin-bottom: 100px; } }
   @media screen and (max-width: 575px) {
-    #about-section .bio-section .card,
-    #about-section .bio-section .card-body,
-    #about-section .bio-section .card-img {
-      width: 250px;
-      height: 250px;
-      margin: auto; }
-    #about-section .bio-section .social-media {
-      width: 80%;
-      margin: auto;
-      margin-bottom: 80px; } }
+    #about-section {
+      height: 960px; }
+      #about-section .bio-section .card,
+      #about-section .bio-section .card-body,
+      #about-section .bio-section .card-img {
+        width: 220px;
+        height: 220px;
+        margin: auto; }
+      #about-section .bio-section .social-media {
+        width: 80%;
+        margin: auto;
+        margin-bottom: 80px; } }
   #about-section .card {
     border-radius: 50%;
     width: 250px;
@@ -6896,7 +6903,9 @@ body {
     font-size: 14px;
     font-weight: normal; }
     #about-section .skill-wrapper .skill {
-      font-size: 18px; }
+      font-size: 18px;
+      padding-top: 5px;
+      padding-bottom: 5px; }
     #about-section .skill-wrapper span {
       float: right;
       font-size: 14px; }
@@ -6930,5 +6939,39 @@ body {
       #about-section .skill-wrapper .progress {
         height: 4px;
         color: #1a88ff; } }
+
+/* contact section styling */
+#contact-section {
+  padding-top: 70px;
+  margin-bottom: 30px; }
+  #contact-section h3 {
+    font-size: 28px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    padding: 30px; }
+  #contact-section .card-body {
+    padding-top: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background: #222; }
+  #contact-section .send-btn {
+    margin-top: 25px;
+    margin-left: 7px; }
+  @media screen and (max-width: 991px) {
+    #contact-section {
+      padding-top: 200px; }
+      #contact-section .card-body {
+        padding-top: 50px;
+        padding-left: 25px;
+        padding-right: 25px; }
+      #contact-section textarea {
+        height: 180px; } }
+  @media screen and (max-width: 767px) {
+    #contact-section {
+      margin-top: 30px; }
+      #contact-section textarea {
+        height: 150px; } }
 
 /*# sourceMappingURL=styles.css.map */

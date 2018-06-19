@@ -6,6 +6,8 @@ body {
   background: #252525;
 }
 
+/* navbar styling */
+
 .navbar-dark {
   background: #000;
   border-bottom: 2px solid $primary;
@@ -16,17 +18,18 @@ body {
   }
 }
 
+/* header section styling */
 #header-section {
   background: url("../img/header-bg.jpeg") no-repeat;
   background-size: cover;
   height: 600px;
 
   @media screen and (max-width: $smBreakPoint) {
-    height: 500px;
+    height: 450px;
   }
 
   @media screen and (max-width: $xsBreakPoint) {
-    height: 500px;
+    height: 450px;
   }
 
   .overlay {
@@ -34,18 +37,18 @@ body {
     height: 600px;
     background-size: cover;
     @media screen and (max-width: $smBreakPoint) {
-      height: 500px;
+      height: 450px;
     }
 
     @media screen and (max-width: $xsBreakPoint) {
-      height: 500px;
+      height: 450px;
     }
   }
 
   .typed-wrapper {
     padding-top: 250px;
     color: #fff;
-    font-size: 60px;
+    font-size: 50px;
     width: 600px;
     margin: auto;
     font-weight: bold;
@@ -72,11 +75,13 @@ body {
   }
 }
 
+/* about section styling */
 #about-section {
   padding-top: 100px;
   height: 600px;
 
   @media screen and (max-width: $smBreakPoint) {
+    height: 960px;
     .bio-section {
       .card,
       .card-body,
@@ -104,12 +109,13 @@ body {
   }
 
   @media screen and (max-width: $xsBreakPoint) {
+    height: 960px;
     .bio-section {
       .card,
       .card-body,
       .card-img {
-        width: 250px;
-        height: 250px;
+        width: 220px;
+        height: 220px;
         margin: auto;
       }
 
@@ -203,6 +209,8 @@ body {
 
     .skill {
       font-size: 18px;
+      padding-top: 5px;
+      padding-bottom: 5px;
     }
 
     span {
@@ -255,6 +263,55 @@ body {
         height: 4px;
         color: lighten($color: $primary, $amount: 5);
       }
+    }
+  }
+}
+
+/* contact section styling */
+#contact-section {
+  padding-top: 70px;
+  margin-bottom: 30px;
+
+  h3 {
+    font-size: 28px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    padding: 30px;
+  }
+
+  .card-body {
+    padding-top: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background: #222;
+  }
+
+  .send-btn {
+    margin-top: 25px;
+    margin-left: 7px;
+  }
+
+  @media screen and (max-width: $mdBreakPoint) {
+    .card-body {
+      padding-top: 50px;
+      padding-left: 25px;
+      padding-right: 25px;
+    }
+
+    padding-top: 200px;
+
+    textarea {
+      height: 180px;
+    }
+  }
+
+  @media screen and (max-width: $smBreakPoint) {
+    margin-top: 30px;
+
+    textarea {
+      height: 150px;
     }
   }
 }
